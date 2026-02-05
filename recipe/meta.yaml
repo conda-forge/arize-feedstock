@@ -46,7 +46,7 @@ outputs:
         - pydantic >=2,<3
         - python-dateutil >=2.8.2,<3
         - requests >=2.0.0,<3
-        - requests_futures >=1.0.0,<2
+        # - requests_futures >=1.0.0,<2  # Doesn't exist on conda-forge
         - tqdm >4,<5                                       # For progress bars
         - typing-extensions >=4.7.1,<5
         - urllib3 >=2.1.0,<3
