@@ -179,4 +179,5 @@ about:
 extra:
   recipe-maintainers:
     - zephyap
+    - Shubh18s
   feedstock-name: {{ name|lower }}
