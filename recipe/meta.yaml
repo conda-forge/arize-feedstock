@@ -1,5 +1,5 @@
 {% set name = "arize" %}
-{% set version = "7.52.0" %}
+{% set version = "8.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/arize-{{ version }}.tar.gz
-  sha256: 485a7bef2190fb34b67cd2959077ea358b1e0a29da66c4ddddc791ccda33950d
+  sha256: a42779f6e4fd4ede03e5a097211a9a54d44007d34e3e87c785499c629080f58d
 
 build:
   number: 1
